@@ -55,7 +55,7 @@ export default {
         strokeOpacity: '0.5',
         fillColor: '#E8A14F',
       },
-      iconUrl: 'https://mapicons.mapsmarker.com/wp-content/uploads/mapicons/shape-default/color-f34648/shapecolor-color/shadow-1/border-dark/symbolstyle-white/symbolshadowstyle-dark/gradient-no/firstaid.png',
+      iconUrl: 'http://maps.google.com/mapfiles/ms/micons/hospitals.png',
     };
   },
   computed: {
