@@ -34,11 +34,11 @@ export default new Vuex.Store({
                 lat: coordinate[i][1], lng: coordinate[i][0],
               },
               infoText: `<h3>${mapInfo[i].name}</h3>
+                        <h4>成人口罩: ${mapInfo[i].mask_adult}個</h4>
+                        <h4>兒童口罩: ${mapInfo[i].mask_child}個</h4>
                         <p>電話: ${mapInfo[i].phone}</p>
                         <p>地區: ${mapInfo[i].county}${mapInfo[i].town}${mapInfo[i].cunli}</p>
                         <p>地址: ${mapInfo[i].address}</p>
-                        <p>成人口罩: ${mapInfo[i].mask_adult}個</p>
-                        <p>兒童口罩: ${mapInfo[i].mask_child}個</p>
                         <p>更新時間: ${mapInfo[i].updated}</p>
                         <h4>看診時間:</h4>
                         <p>星期一: ${serviceTime('星期一')}</p>
